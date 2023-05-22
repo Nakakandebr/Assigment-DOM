@@ -1,3 +1,6 @@
+// Change document background color to
+// silver
+
 document.getElementById('vegs').style.backgroundColor="silver";
 document.getElementById("title").style.color="green";
 document.getElementById("title").style.fontSize="40px";
@@ -23,6 +26,12 @@ let addVegetable= document.createElement('li');
 addVegetable.innerHTML="Cabagge"
 document.getElementById("vegList").appendChild(addVegetable);
 document.getElementById("vegList").style.fontSize="20px"
+
+
+let image=document.createElement("images")
+image.src = "images/vegetables.jpeg"
+document.body.appendChild(image)
+
 
 
 
